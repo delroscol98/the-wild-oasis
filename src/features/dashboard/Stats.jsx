@@ -43,7 +43,7 @@ function Stats({ bookings, confirmedStays, numDays, cabinCount }) {
         value={checkins}
       />
       <Stat
-        title="Bookings"
+        title="Capacity"
         icon={<HiOutlineChartBar />}
         color="yellow"
         value={Math.round(occupation * 100) + "%"}
